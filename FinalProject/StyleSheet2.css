@@ -1,0 +1,12 @@
+﻿body {
+}
+.button {
+    background-color:transparent;
+    border-width:0;
+    font-size:50px
+}
+.button:hover{
+    background-color:lightyellow;
+    border-width:1;
+    border-color:yellow;
+}

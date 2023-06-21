@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body style="background-image:url(../../Images/background.jpg);background-size:cover">
+    <form id="form1" runat="server">
+    <nav>
+    <div class='tri'>
+  <div class='side'>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+  </div>
+  <div class='side'>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+  </div>
+  <div class='side'>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+    <div class='ring'></div>
+  </div>
+</div>
+        <label style="float:left; color:white;font-size:50px;line-height:120px;font-family:'Brush Script MT';padding-left:200px">מערכת ללימוד גיאומטריה</label>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.png" style="height:120px;float:right;padding-left:40px;padding-right:40px"/>
+        <ul>
+            <li id="ManagerPanelLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="ManagerPanel" runat="server" NavigateUrl="~/Manager/ManagerMenu.aspx">תפריט מנהל</asp:HyperLink></li>
+            <li id="UserPanelLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="UserPanel" runat="server" NavigateUrl="~/User/UserMenu.aspx">תפריט משתמש</asp:HyperLink></li>
+            <li id="SignOutLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignOut" runat="server" NavigateUrl="~/LogOut.aspx">התנתק</asp:HyperLink></li>
+            <li id="SignUpLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignUp" runat="server" NavigateUrl="~/Register.aspx">הירשם</asp:HyperLink></li>
+            <li id="SignInLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignIn" runat="server" NavigateUrl="~/LogIn.aspx">התחבר</asp:HyperLink></li>
+            <li id="HomePageLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="HomePage" runat="server" NavigateUrl="~/HomePage.aspx">דף הבית</asp:HyperLink></li>
+        </ul>
+    </nav>
+    <div dir="rtl">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
